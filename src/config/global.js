@@ -356,7 +356,7 @@ export default {
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
-          nombre: ' ',
+          nombre: 'Andrea Paola Botello De la Rosa',
           cargo: 'Actividad didáctica',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',

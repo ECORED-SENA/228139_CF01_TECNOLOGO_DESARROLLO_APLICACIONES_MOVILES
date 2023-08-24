@@ -11,7 +11,7 @@
     
     .row.align-items-center
       .col-lg-7.mb-4(data-aos="fade-right")
-        .bloque-texto-b.color-secundario.p-4
+        .bloque-texto-b.color-primario.p-4
           .bloque-texto-b__texto
             i.fas.fa-quote-left 
             .h3.mb-0 Un problema puede ser definido como la diferencia entre las cosas como se perciben y las cosas como se desean
@@ -285,7 +285,7 @@
     
     .row.mb-5(data-aos="fade-down")
       .col-lg-8
-        .bloque-texto-b.color-secundario.p-4
+        .bloque-texto-b.color-primario.p-4
           .bloque-texto-b__texto
             i.fas.fa-quote-left 
             .h3.mb-0 La entrevista es una forma de recoger información de otra persona a través de una comunicación interpersonal que se lleva a cabo por medio de una conversación estructurada.
@@ -417,7 +417,7 @@
 
     .row.mb-5
       .col-lg-7(data-aos="fade-right")
-        .bloque-texto-b.color-secundario.p-4
+        .bloque-texto-b.color-primario.p-4
           .bloque-texto-b__texto
             i.fas.fa-quote-left 
             .h3.mb-0 Los cuestionarios son herramientas ampliamente utilizadas para recoger datos de sondeos y pueden ser administradas sin la presencia del investigador.
