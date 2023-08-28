@@ -104,28 +104,28 @@ export default {
     {
       tema: '1.1 Planeación',
       referencia:
-        'EDAP – Project Business School. (2016). <em>MOOC PMP 302 Identificar Interesados</em> (video). YouTube.',
+        'EDAP – Project Business School. (2016). <em>MOOC PMP 302 Identificar Interesados</em> ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=aUkTxgaajBo',
     },
     {
       tema: '1.1 Planeación',
       referencia:
-        'Virtual Training Lteam. (2016). <em>Partes Interesadas Stakeholders</em> (video). YouTube.',
+        'Virtual Training Lteam. (2016). <em>Partes Interesadas Stakeholders</em> ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=9AtaIAZEu0c',
     },
     {
       tema: '1.1 Planeación',
       referencia:
-        'Calle, M. (2020). <em>Análisis de Interesados Mariz Poder Interés - PMI</em> (video). YouTube.',
+        'Calle, M. (2020). <em>Análisis de Interesados Mariz Poder Interés - PMI</em> ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=hDZ0uu0H1wc',
     },
     {
       tema: '1.2 Técnicas e instrumentos para elicitar requisitos',
       referencia:
-        'Jibaro X. (2019). <em>Tipos de Pregundas en una encuesta</em> (video). YouTube.',
+        'Jibaro X. (2019). <em>Tipos de Pregundas en una encuesta</em> ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=mwnQuUi9014',
     },

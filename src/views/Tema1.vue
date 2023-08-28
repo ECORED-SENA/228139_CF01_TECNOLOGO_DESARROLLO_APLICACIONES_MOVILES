@@ -99,35 +99,37 @@
     
     .hr1
     .row.align-items-center(data-aos="fade-down")
-      .col-2
+      .col-2.px-1.px-md-2.px-lg-3
         figure
-          img(src='@/assets/curso/temas/img1.svg', style="max-width: 50%; margin: auto;")
+          img.px-md-2.px-lg-5(src='@/assets/curso/temas/img1.svg', style="margin: auto;")
       .col-10
         h4 Fuentes primarias
         p Aportan material de primera mano (es protagonista o testigo de los hechos), estas fuentes contienen información original, que ha sido publicada por primera vez y que no ha sido filtrada, interpretada o evaluada por nadie más.
     .hr2
     .row.align-items-center(data-aos="fade-down")
-      .col-2
+      .col-2.px-1.px-md-2.px-lg-3
         figure
-          img(src='@/assets/curso/temas/img2.svg', style="max-width: 50%; margin: auto;")
+          img.px-md-2.px-lg-5(src='@/assets/curso/temas/img2.svg', style="margin: auto;")
       .col-10
         h4 Fuentes secundarias
         p Toman y reproducen la información que le aportó una fuente primaria. Son las que contienen información primaria, sintetizada y reorganizada y están especialmente diseñadas para facilitar y maximizar el acceso a las fuentes primarias o a sus contenidos. Parten de datos preelaborados, como pueden ser datos obtenidos de anuarios estadísticos, internet, medios de comunicación, bases de datos procesadas con otros fines, artículos y documentos relacionados con un tema, libros, tesis, informes oficiales, etc.
     .hr2
     .row.align-items-center(data-aos="fade-down")
-      .col-2
+      .col-2.px-1.px-md-2.px-lg-3
         figure
-          img(src='@/assets/curso/temas/img3.svg', style="max-width: 50%; margin: auto;")
+          img.px-md-2.px-lg-5(src='@/assets/curso/temas/img3.svg', style="margin: auto;")
       .col-10
         h4 Fuentes terciarias
         p Son guías físicas o virtuales que contienen información sobre las fuentes secundarias. Forman parte de la colección de referencia de una biblioteca; facilitan el control y acceso a toda la gama de repertorios de referencia, como las guías de obras de referencia, o a un solo tipo, como las bibliografías.
     
     .hr3.mb-4
     
-    p.mb-4(data-aos="fade")   Por otra parte, las fuentes de información, pueden ser orales, escritas o de otro tipo, dependiendo de cómo se transmitan los datos. A continuación, se pueden revisar algunos ejemplos de fuentes de información.
+    p.mb-4(data-aos="fade")  Por otra parte, las fuentes de información, pueden ser orales, escritas o de otro tipo, dependiendo de cómo se transmitan los datos. A continuación, se pueden revisar algunos ejemplos de fuentes de información.
     
+    .titulo-sexto.color-acento-contenido.mb-3
+      p.mb-0 #[b Figura 1.] Fuentes de información
     figure.mb-5(data-aos="fade-down")
-      img(src='@/assets/curso/temas/img3.png', style="max-width: 100%; margin: auto;")
+      img(src='@/assets/curso/temas/img3.png', style="max-width: 100%; margin: auto;" alt="Imagen que representa las cuatro fuentes de información o documentación.")
     
     .row.align-items-start.mb-4.pt-5
       .col-lg-6(data-aos="fade-right")  
@@ -142,17 +144,17 @@
     
     .hr1
     .row.align-items-center(data-aos="fade-down")
-      .col-2
+      .col-2.px-1.px-md-2.px-lg-3
         figure
-          img(src='@/assets/curso/temas/img4.svg', style="max-width: 50%; margin: auto;")
+          img.px-md-2.px-lg-5(src='@/assets/curso/temas/img4.svg', style="margin: auto;")
       .col-10
         h4 Primarios
         p Son aquellas personas indispensables para el correcto funcionamiento de la organización, y tienen una relación económica directa con la empresa. Estos pueden ser sus socios, clientes y accionistas
     .hr2
     .row.align-items-center(data-aos="fade-down")
-      .col-2
+      .col-2.px-1.px-md-2.px-lg-3
         figure
-          img(src='@/assets/curso/temas/img5.svg', style="max-width: 50%; margin: auto;")
+          img.px-md-2.px-lg-5(src='@/assets/curso/temas/img5.svg', style="margin: auto;")
       .col-10
         h4 Secundarios
         p Son los entes que no participan directamente de la compañía, pero también son afectados por sus resultados. En este círculo se encuentran los competidores, el mercado y las personas en general.
@@ -231,11 +233,21 @@
     p.mb-5(data-aos="fade") Para desarrollar la matriz de #[em stakeholders] es necesario identificar las entradas necesarias que proveerán la información con la que el líder y el equipo de proyecto trabajarán para desarrollar la matriz misma. Tales entradas pueden ser el acta de constitución de proyecto, documentos de adquisición, activos de los procesos y factores ambientales de la organización.
     
     .titulo-sexto.color-acento-contenido(data-aos="fade-down")
-      p.mb-0 #[b Figura 1.] Entradas, herramientas y técnicas, salidas
-    figure.mb-4(data-aos="fade-down")
+      p.mb-0 #[b Figura 2.] Entradas, herramientas y técnicas, salidas
+    figure.mb-4(data-aos="fade-down").d-none.d-lg-block
       img(src='@/assets/curso/temas/fig1.svg', style="max-width: 100%; margin: auto;" alt="Se presentan las entradas necesarias que proveen la información, las herramientas y técnicas y las salidas para así armar la matriz de stakeholders.")
+    .row.justify-content-center
+      .col-12.col-md-9
+        figure.mb-4(data-aos="fade-down").d-lg-none.d-block
+          img(src='@/assets/curso/temas/fig1-mob.svg', style="max-width: 100%; margin: auto;" alt="Se presentan las entradas necesarias que proveen la información, las herramientas y técnicas y las salidas para así armar la matriz de stakeholders.")
     
-    p.mb-5(data-aos="fade") Para profundizar en detalle, lo invitamos a consultar la Guía PMBOK 6 – 49 procesos, entradas, herramientas y salidas, que se encuentra en el material complementario.
+    .tarjeta.bg-2.mb-5(data-aos="fade") 
+      .row.align-items-center.justify-content-center.p-4
+        .col-lg-1.col-md-2.col-4.mb-3.mb-md-0
+          img(src='@/assets/curso/temas/alert.svg', style="margin: auto;")
+        .col-lg-11.col-md-10
+          p.mb-0 Para profundizar en detalle, lo invitamos a consultar la Guía PMBOK 6 – 49 procesos, entradas, herramientas y salidas, que se encuentra en el material complementario.
+
 
     h4(data-aos="fade") Descripción de los componentes de la matriz de #[em stakeholders]
     p.mb-4(data-aos="fade") A continuación, se presenta el concepto de cada uno de los componentes que estructuran la matriz de #[em stakeholders].
@@ -262,12 +274,12 @@
     
     h4(data-aos="fade") Categorización de #[em stakeholders] y estrategias de gestión de las expectativas
     p.mb-4(data-aos="fade") Como ya se había mencionado anteriormente, la matriz de #[em stakeholders] es una herramienta muy útil que permite clasificar a los involucrados en el proyecto según sus niveles de interés e influencia, priorizando a los más importantes y desarrollando así las estrategias correspondientes para gestionar sus expectativas. De la misma manera, su clasificación puede cambiar durante la vida del proyecto. Así, aquellos que fueron inicialmente identificados con un alto nivel de influencia en el proyecto, pueden ser reclasificados a un nivel más bajo durante otras etapas de la vida del proyecto.
-    p.mb-4(data-aos="fade") La categorización de los #[em stakeholders] se lleva a cabo una vez que la información sobre éstos esté completa. Para ello se puede utilizar una matriz de 2x2 en la que se pueda graficar el grado de poder e interés que tiene el involucrado en el proyecto, coadyuvando así a clasificar a cada #[em stakeholder] dentro del grupo para el cual se definen diferentes estrategias (figura 2).
+    p.mb-4(data-aos="fade") La categorización de los #[em stakeholders] se lleva a cabo una vez que la información sobre éstos esté completa. Para ello se puede utilizar una matriz de 2x2 en la que se pueda graficar el grado de poder e interés que tiene el involucrado en el proyecto, coadyuvando así a clasificar a cada #[em stakeholder] dentro del grupo para el cual se definen diferentes estrategias (figura 3).
     
     .titulo-sexto.color-acento-contenido(data-aos="fade-down")
-      p.mb-0 #[b Figura 2.] Ejemplo de matriz interés vs. influencia.
+      p.mb-0 #[b Figura 3.] Ejemplo de matriz interés vs. influencia.
     figure(data-aos="fade-down")
-      img(src='@/assets/curso/temas/img7.png', style="max-width: 100%; margin: auto;")
+      img(src='@/assets/curso/temas/img7.png', style="max-width: 100%; margin: auto;" alt="Matriz que presenta un ejemplo de interés vs. Influencia.")
       figcaption Nota: tomado de Gardnet et al. (1986)
     
 
@@ -328,11 +340,11 @@
             ol.lista-ol--cuadro.fa-ul
               li 
                 .lista-ol--cuadro__vineta
-                  span.fw-bold a.
+                  span.fw-bold a
                 span.mb-0 #[b Apertura:] presentarse e informar al entrevistado sobre la razón de la entrevista.
               li 
                 .lista-ol--cuadro__vineta
-                  span.fw-bold b.
+                  span.fw-bold b
                 span.mb-0 #[b Desarrollo:] cumplir las reglas del protocolo, hay que llegar a un acuerdo sobre cómo se va a registrar la información obtenida.
             p Durante esta fase se pueden emplear distintas técnicas:
           .col-md-6
@@ -430,18 +442,23 @@
     p.mb-4(data-aos="fade") Los datos que se obtienen a través de los cuestionarios suelen estar clasificados en dos categorías: hechos y opiniones (Denscombe, 2010, p. 156). La información relacionada con los hechos no requiere el juicio o la actitud personal de los sujetos participantes, pero la información obtenida a través de las opiniones implica creencias, puntos de vista y preferencias de los sujetos participantes.
     
     .row.mb-4
-      .col-6.p-4.bg-color2(data-aos="fade-right")
+      .col-lg-6.p-4.bg-color2(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/img9.svg', style="max-width: 20%; margin: auto;")
         h5.text-center.my-4 Tipos de preguntas
         p La distinción más general entre los tipos de preguntas de los #[b cuestionarios, además de hechos y opiniones, es la de preguntas abiertas y cerradas]; las preguntas abiertas son aquellas en las que no se especifica ninguna respuesta para elegir y se deja abierta a la elección del participante para que escriba en ella. Las preguntas cerradas son las que ofrecen ya unas respuestas predeterminadas para su elección.
-      .col-6.p-4.bg-color3(data-aos="fade-left")
+      .col-lg-6.p-4.bg-color3(data-aos="fade-left")
         figure
           img(src='@/assets/curso/temas/img10.svg', style="max-width: 11%; margin: auto;")
         h5.text-center.my-4 Tipos de respuestas
         p Las respuestas de escala son las más comunes en los cuestionarios de investigación ya que implican al participante en una valoración o evaluación de las respuestas objetivo por medio de varias opciones en las que tienen que marcar dentro de una escala la importancia de cada una. Esa escala de valoración indica diferentes grados en una categoría y puede ser de diversa naturaleza; por ejemplo, puede valorar una categoría indicando si es #[b “bueno”] o #[b “malo”], #[b “frecuente”] o #[b “infrecuente”], #[b “importante”] o #[b “poco importante”] o también pueden valorar opiniones: #[b “completamente de acuerdo”] o #[b “en desacuerdo”]. El número de opciones más común es el de cinco, por ser un número impar, ya que existe una tendencia generalizada a seleccionar la opción intermedia (Dornyei, 2010).
     
-    p.mb-4(data-aos="fade") Para ampliar la información, lo invitamos a ver el video Tipos de preguntas en una encuesta, el cual se encuentra en el material complementario.
+    .tarjeta.bg-2.mb-5(data-aos="fade") 
+      .row.align-items-center.justify-content-center.p-4
+        .col-lg-1.col-md-2.col-4.mb-3.mb-md-0
+          img(src='@/assets/curso/temas/alert.svg', style="margin: auto;")
+        .col-lg-11.col-md-10
+          p.mb-0 Para ampliar la información, lo invitamos a ver el video Tipos de preguntas en una encuesta, el cual se encuentra en el material complementario.
 
     h3(data-aos="fade") Observación
     p.mb-4(data-aos="fade") Esta permite la obtención de datos para emprender una investigación de tipo cualitativo, no desde el punto de vista de lo que los sujetos dicen, sino que es la evidencia directa de lo que ve y percibe el investigador en un escenario de primera mano (Denscombe, 2010).
@@ -482,7 +499,7 @@
     p.mb-4 En la siguiente figura, se pueden revisar los tipos de observación.
 
     .titulo-sexto.color-acento-contenido(data-aos="fade")
-      p.mb-0 #[b Figura 3.] Tipos de observación
+      p.mb-0 #[b Figura 4.] Tipos de observación
     figure.mb-5(data-aos="fade")
       img(src='@/assets/curso/temas/img12.png', style="max-width: 100%; margin: auto;" alt="Los tipos de observación son pasiva y activa.")
 
@@ -532,25 +549,25 @@
 
     AcordionA(tipo="a" clase-tarjeta="tarjeta bg-1" data-aos="fade-down")
       .row(titulo="Lluvia de ideas").align-items-center
-        .col-2
+        .col-lg-2.d-none.d-lg-block
           figure
             img(src='@/assets/curso/temas/img11.svg', style="max-width: 70%; margin: auto;")
-        .col-10
+        .col-lg-10
           p También denominada tormenta de ideas o incluso brainstorming. Faickney (1939) investigó sobre diferentes maneras de generar creatividad. Se percató de que la mejor manera de ser creativo en una empresa es a través de la interacción y el trabajo en equipo; todos juntos podían dar sus opiniones y sugerencias sobre un tema determinado. Creó de esta manera la lluvia de ideas.
       div(titulo="Sesiones JAD (Joint Application Design)")
         .row.align-items-center
-          .col-2
+          .col-lg-2.d-none.d-lg-block
             figure
               img(src='@/assets/curso/temas/img12.svg', style="max-width: 70%; margin: auto;")
-          .col-10
+          .col-lg-10
             p.mb-4 Es un proceso usado para reunir requerimientos en el desarrollo de nuevos sistemas de información para una compañía. #[b El proceso JAD consiste en un taller donde los trabajadores del conocimiento y los especialistas en tecnologías de información se reúnen], algunas veces durante varios días, para definir y revisar los requerimientos de negocio para el sistema. Los asistentes incluyen oficiales de administración de alto nivel, quienes se aseguran de que el producto provea los reportes y la información requerida al final, esto actúa como #[b “un proceso de administración”] que permite que los departamentos de servicios de información corporativa trabajen más eficientemente con los usuarios en un marco de tiempo más reducido. 
             p A través de los talleres JAD, los trabajadores del conocimiento y los especialistas en tecnologías de información pueden resolver cualquier dificultad o diferencias entre las posturas referentes al nuevo sistema de información. #[b El taller sigue una detallada agenda para lograr garantizar que todas las incertidumbres entre los grupos sean cubiertas y para ayudar a prevenir cualquier falla en la comunicación], estas fallas de comunicación pueden provocar repercusiones mucho más serias si no se identifican a tiempo. Al final, este proceso resultará en un nuevo Sistema de Información viable y orientado tanto a diseñadores como a usuarios.
       div(titulo="Método Delphi")
         .row.align-items-center
-          .col-2
+          .col-lg-2.d-none.d-lg-block
             figure
               img(src='@/assets/curso/temas/img13.svg', style="max-width: 70%; margin: auto;")
-          .col-10
+          .col-lg-10
             .mb-4 Es un #[b método de estructuración de un proceso de comunicación grupal] que consiste en la selección de un grupo de expertos a los que se les pregunta su opinión frente a ciertas temáticas.
             ul.lista-ul--color.fa-ul(data-aos="fade")
               li 
@@ -608,7 +625,7 @@
     
     h4.mb-4(data-aos="fade") Representación gráfica
     .titulo-sexto.color-acento-contenido(data-aos="fade")
-      p.mb-0 #[b Figura 4.] Caso de uso centro médico
+      p.mb-0 #[b Figura 5.] Caso de uso centro médico
     figure.mb-5(data-aos="fade-down")
       img(src='@/assets/curso/temas/img16.png', style="max-width: 100%; margin: auto;" alt="Representación gráfica de un diagrama de caso de uso de la sistematización de un centro médico.")
     
@@ -619,7 +636,7 @@
     p.mb-5(data-aos="fade") Los actores son los usuarios que podrán ejecutar los casos de uso, en el ejemplo anterior, se identificaron dos actores (médico y empleado).
     
     h4(data-aos="fade") Documentación
-    p.mb-4(data-aos="fade") La técnica de casos de uso requiere además de construir el diagrama de casos de uso, la descripción de estos. Esta descripción permite detallar el flujo de eventos que se da entre el Sistema y el Actor para llevar a cabo el caso de uso. A continuación, se presenta el formato diligenciado de acuerdo con el ejemplo del centro médico.
+    p.mb-4(data-aos="fade") La técnica de casos de uso requiere además de construir el diagrama de casos de uso, la descripción de estos. Esta descripción permite detallar el flujo de eventos que se da entre el Sistema y el Actor para llevar a cabo el caso de uso.
     
     .tarjeta.tarjeta.bg-color4.p-4.mb-5.shadow(data-aos="fade-down")
       .row.justify-content-around.align-items-center
@@ -631,22 +648,56 @@
           a.boton.boton--b(:href="obtenerLink('/downloads/Anexo4.pdf')" target="_blank" type="application/pdf")
             span Descargar
             i.fas.fa-file-download
-          p.mt-3.mb-4 #[b Nota: ]tomado de Gutierrez (s.f.)
     
     h3(data-aos="fade") Historias de usuario
-    p(data-aos="fade") Las historias de usuario son utilizadas en los métodos agiles para la especificación de requisitos, son una descripción breve de una funcionalidad software tal y como la percibe el usuario (Cohn, 2004).
+    p(data-aos="fade") Las historias de usuario son utilizadas en los métodos agiles para la especificación de requisitos, son una descripción breve de una funcionalidad #[em software] tal y como la percibe el usuario (Cohn, 2004).
     p.mb-4(data-aos="fade") El formato para las historias de usuario Scrum se basan en una regla de tres palabras:
     
     .row.justify-content-center.mb-5(data-aos="fade-down")
-      .col-10.col-lg-8
+      .col-lg-8
+        .tarjeta.bg-color4.p-4.p-lg-5
+          .row.justify-content-center.align-items-center
+            .col-md-5.col-10.mb-3.mb-md-0
+              img(src='@/assets/curso/temas/nota.png')
+            .col-md-6
+              ul.lista-ul--color.fa-ul.color-acento-botones.size-20
+                li 
+                  i.fas.fa-angle-right
+                  p.mb-0 #[b Como] &lt;rol&gt;	
+                li 
+                  i.fas.fa-angle-right
+                  p.mb-0 #[b Quiero] &lt;eventos&gt;	
+                li 
+                  i.fas.fa-angle-right
+                  p.mb-0 #[b Para] &lt;funcionalidades&gt;	
+      //.col-10.col-lg-8
         figure
           img(src='@/assets/curso/temas/img17.png', style="max-width: 100%; margin: auto;")
           figcaption Nota: tomado de Martin (s.f.)
     
-    p(data-aos="fade") Así, el #[b &lt;rol&gt;] que se escoja que va a utilizar la aplicación software, requiere de una #[b &lt;Acción&gt;] / #[b &lt;evento&gt;] que ocurra, porque se desea cubrir una #[b &lt;funcionalidad&gt;]. Corto y conciso, directo y claro.
-    p.mb-4(data-aos="fade") En las siguientes figuras se presentan ejemplos de historias de usuario.
+    p(data-aos="fade") Así, el #[b &lt;rol&gt;] que se escoja que va a utilizar la aplicación #[em software], requiere de una #[b &lt;Acción&gt;] / #[b &lt;evento&gt;] que ocurra, porque se desea cubrir una #[b &lt;funcionalidad&gt;]. Corto y conciso, directo y claro.
+    p.mb-4(data-aos="fade") A continuación se presentan ejemplos de historias de usuario.
+    //p.mb-4(data-aos="fade") En las siguientes figuras se presentan ejemplos de historias de usuario.
     
     .row.justify-content-center.mb-5(data-aos="fade-down")
+      .col-lg-9
+        .tarjeta.bg-color4.p-4.p-lg-5
+          .row.justify-content-center
+            .col-lg-5.mb-3.mb-lg-0
+              .bg-3.p-4.p-lg-5.h-100
+                h4.mb-0 Como un 
+                  span.txt-color2 cliente, quiero 
+                  | consultar 
+                  span.txt-color2 para 
+                  | poder encontrar el producto que deseo comprar.
+            .col-lg-5
+              .bg-3.p-4.p-lg-5.h-100
+                h4.mb-0 Como un 
+                  span.txt-color2 cliente, quiero 
+                  | que los productos seleccionados para la compra queden almacenados en un carrito de compra 
+                  span.txt-color2 para 
+                  | poder visualizar todos mis productos y el precio total.
+    //.row.justify-content-center.mb-5(data-aos="fade-down")
       .col-10.col-lg-8
         figure
           img(src='@/assets/curso/temas/img18.png', style="max-width: 100%; margin: auto;")
@@ -672,9 +723,14 @@
     p(data-aos="fade") Los criterios de aceptación, es decir, la confirmación. Se trata de criterios claros y específicos que todo el equipo debe comprender y que permitirán avaluar en el futuro si la implementación que se está desarrollando o las pruebas que se realicen están terminadas.
     p.mb-4(data-aos="fade") A continuación, un ejemplo de una historia de usuario usando plantilla.
     
-    .titulo-sexto.color-acento-contenido(data-aos="fade")
+    .titulo-sexto.color-acento-contenido.mb-3
+      p.mb-0 #[b Figura 6.] Ejemplos de historias de usuario
+    figure.mb-4
+      img(src='@/assets/curso/temas/tabla.png', style="max-width: 100%; margin: auto;" alt="EEjemplos de historias de usuario")
+
+    //.titulo-sexto.color-acento-contenido(data-aos="fade")
       p.mb-0 #[b Tabla 4.] Ejemplos de historias de usuario
-    .tabla-a.color-acento-contenido.mb-5(data-aos="fade-down")
+    //.tabla-a.color-acento-contenido.mb-5(data-aos="fade-down")
       table
         thead
           tr
@@ -746,13 +802,12 @@
             td.table3
     
     .row.mb-5(data-aos="fade-down")
-      .col-7
+      .col-7.col-md-5
         a.anexo.mb-4(:href="obtenerLink('/downloads/Anexo3.xls')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-xls.svg")
           .anexo__texto
-            p.mb-3 #[b Anexo.] Revisar el anexo Plantilla de Historias de Usuario, para analizar su estructura.
-            p #[b Nota: ] Tomado de la oficina de proyectos de informática. (2012)
+            p.mb-3 #[b Anexo.] Ejemplos de historias de usuario
     
     h3(data-aos="fade") #[em Storyboard]
     figure.mb-5(data-aos="fade-down")
@@ -806,13 +861,13 @@
     .row.align-items-start
       .col-lg-6(data-aos="fade-right")
         .titulo-sexto.color-acento-contenido.mb-0
-          p.mb-0 #[b Figura 5.] Escenario representado en formato de #[em storyboard] que representa una situación típica tal y como se realiza actualmente
+          p.mb-0 #[b Figura 7.] Escenario representado en formato de #[em storyboard] que representa una situación típica tal y como se realiza actualmente
         figure
           img(src='@/assets/curso/temas/img22.jpg', style="max-width: 100%; margin: auto;" alt="Escenario representado en formato de storyboard que representa una situación típica tal y como se realiza actualmente.")
           figcaption Nota: Tomado de Granollers, Lorés y Perdrix (2002)
       .col-lg-6.mt-4.mt-lg-0(data-aos="fade-left")
         .titulo-sexto.color-acento-contenido.mb-0
-          p.mb-0 #[b Figura 6.] Escenario representado en formato de #[em storyboard] que representa la misma situación anterior tal como quedará con la implementación del sistema
+          p.mb-0 #[b Figura 8.] Escenario representado en formato de #[em storyboard] que representa la misma situación anterior tal como quedará con la implementación del sistema
         figure
           img(src='@/assets/curso/temas/img23.jpg', style="max-width: 100%; margin: auto;" alt="Escenario representado en formato de storyboard que representa la misma situación anterior tal como quedará con la implementación del sistema.")
           figcaption Nota: Tomado de Granollers, Lorés y Perdrix (2002)
