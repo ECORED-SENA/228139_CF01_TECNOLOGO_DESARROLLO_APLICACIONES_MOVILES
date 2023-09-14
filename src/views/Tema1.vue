@@ -64,7 +64,7 @@
             td Perfil de stakeholder.
           tr
             td #[b D.] Revisar técnicas.
-            td Identificar combinaciones de técnicas entrevistas, grupos focales, encuestas, prototipos.
+            td Identificar combinaciones de técnicas, entrevistas, grupos focales, encuestas, prototipos.
           tr
             td #[b E.] Captura de interesados.
             td Plan de captura de interesados.
@@ -160,7 +160,7 @@
         p Son los entes que no participan directamente de la compañía, pero también son afectados por sus resultados. En este círculo se encuentran los competidores, el mercado y las personas en general.
     .hr2.mb-5
     
-    p.mb-4(data-aos="fade") A continuación, se listan roles más generales de las personas involucradas con sus términos similares, aunque cabe resaltar que existen leves diferencias entre ellos (Sommerville y Sawyer, 2005)
+    p.mb-4(data-aos="fade") A continuación, se listan roles más generales de las personas involucradas con sus términos similares, aunque cabe resaltar que existen leves diferencias entre ellos (Sommerville y Sawyer, 2005):
     
     ul.lista-ul--color.mb-4(data-aos="fade")  
       li 
@@ -340,11 +340,11 @@
             ol.lista-ol--cuadro.fa-ul
               li 
                 .lista-ol--cuadro__vineta
-                  span.fw-bold a
+                  span.fw-bold a.
                 span.mb-0 #[b Apertura:] presentarse e informar al entrevistado sobre la razón de la entrevista.
               li 
                 .lista-ol--cuadro__vineta
-                  span.fw-bold b
+                  span.fw-bold b.
                 span.mb-0 #[b Desarrollo:] cumplir las reglas del protocolo, hay que llegar a un acuerdo sobre cómo se va a registrar la información obtenida.
             p Durante esta fase se pueden emplear distintas técnicas:
           .col-md-6
@@ -591,10 +591,10 @@
     .titulo-segundo.color-acento-contenido
       h2 1.3. Herramientas para captura de requisitos
 
-    p.mb-5(data-aos="fade") Existen varias herramientas para la captura de requisitos potenciales de un nuevo sistema o una actualización de software, a continuación, se explican las más utilizadas:
+    p.mb-5(data-aos="fade") Existen varias herramientas para la captura de requisitos potenciales de un nuevo sistema o una actualización de #[em software], a continuación, se explican las más utilizadas:
 
     h3(data-aos="fade") Diagrama de casos de uso.
-    p(data-aos="fade") Al momento de desarrollar un proyecto se debe pensar en cuáles serán las principales funcionalidades que el software debe permitir llevar a cabo y quiénes serán los que podrán ejecutar dichas funcionalidades. #[b La identificación de estos elementos se puede visualizar de manera efectiva a través de la elaboración de diagramas de casos de uso]; estos diagramas, que son elaborados durante las etapas iniciales de un proyecto, se convierten en referente para cada una de las etapas siguientes del desarrollo del proyecto.
+    p(data-aos="fade") Al momento de desarrollar un proyecto se debe pensar en cuáles serán las principales funcionalidades que el #[em software] debe permitir llevar a cabo y quiénes serán los que podrán ejecutar dichas funcionalidades. #[b La identificación de estos elementos se puede visualizar de manera efectiva a través de la elaboración de diagramas de casos de uso]; estos diagramas, que son elaborados durante las etapas iniciales de un proyecto, se convierten en referente para cada una de las etapas siguientes del desarrollo del proyecto.
     p.mb-5(data-aos="fade") Componentes. En los diagramas de casos de uso, se observan los siguientes componentes.
     
     h4(data-aos="fade") Actor
@@ -645,7 +645,7 @@
         .col-md.col-lg-6
           .h2 Documentación caso de uso
           p.mb-4 A continuación, se presenta el formato diligenciado de acuerdo con el ejemplo del centro médico.
-          a.boton.boton--b(:href="obtenerLink('/downloads/Anexo4.pdf')" target="_blank" type="application/pdf")
+          a.boton.boton--b(:href="obtenerLink('/downloads/Caso_de_uso.pdf')" target="_blank" type="application/pdf")
             span Descargar
             i.fas.fa-file-download
     
@@ -726,7 +726,7 @@
     .titulo-sexto.color-acento-contenido.mb-3
       p.mb-0 #[b Figura 6.] Ejemplos de historias de usuario
     figure.mb-4
-      img(src='@/assets/curso/temas/tabla.png', style="max-width: 100%; margin: auto;" alt="EEjemplos de historias de usuario")
+      img(src='@/assets/curso/temas/tabla.png', style="max-width: 100%; margin: auto;" alt="Ejemplos de historias de usuario")
 
     //.titulo-sexto.color-acento-contenido(data-aos="fade")
       p.mb-0 #[b Tabla 4.] Ejemplos de historias de usuario
