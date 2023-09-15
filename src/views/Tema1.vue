@@ -531,7 +531,7 @@
 
     .row.mb-5(data-aos="fade-down")
       .col-lg-6
-        a.anexo.mb-4(:href="obtenerLink('/downloads/Anexo2_Tipos_preguntas.pdf')" target="_blank")
+        a.anexo.mb-4(:href="obtenerLink('/downloads/Ficha_de_observacion.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-link.svg")
           .anexo__texto
@@ -950,7 +950,7 @@
         .row
           .col-12
             p.mb-4 La aplicación en línea Gliffy es una herramienta de diagramas UML basada en la nube. Apareció por primera vez en 2006 y se trata de una herramienta de modelado que crea todo tipo de diagramas, tales como diagramas de flujo, diagramas de Venn y, por supuesto, diagramas UML. La herramienta en línea fue escrita en HTML5 y es bastante popular gracias a su rapidez de reacción. Es de anotar que antes de que Gliffy pasara por la fase beta en 2007, la empresa homónima cooperó con el grupo de #[em software] australiano Atlassian. Ya en 2006, su #[em software] de colaboración Confluence integró un #[em plugin] de Gliffy y, más tarde, el equipo de Gliffy desarrolló un #[em plugin] para Jira. Google Workspace y Drive de Google también integran esta herramienta UML.
-            figure
+            //figure
               img(src='@/assets/curso/temas/img24.png', style="max-width: 100%; margin: auto;")
               figcaption Nota: Tomado de <a href="https://www.gliffy.com/" target="_blank">https://www.gliffy.com/</a>
       .py-3.py-md-4(titulo="ArgoUML")
@@ -958,7 +958,7 @@
           .col-12
             p.mb-4 Ha sido durante mucho tiempo una de las herramientas UML gratuitas de código abierto más populares para el escritorio y aunque ya no se mantiene, muchos modeladores continúan usando el programa para tareas más pequeñas. Su #[em software] es multiplataforma, cuyo el requisito mínimo es Java 5 ArgoUML soporta todos los tipos de diagramas de la versión 1.4 de UML y perfiles UML. El programa también ofrece algunas formas decorativas que no forman parte del estándar UML.
             p.mb-4 Además, aunque esta herramienta UML está disponible como descarga gratuita, ArgoUML #[b soporta una amplia gama de lenguajes de programación] cuyo código puede generarse a partir de un diagrama. La 	ingeniería inversa también es posible para Java, C++, PHP, C# y SQL. El programa reconoce otros idiomas como Delphi o Ruby cuando los agrega como extensiones a la carpeta de archivos ArgoULM.
-            figure
+            //figure
               img(src='@/assets/curso/temas/img25.png', style="max-width: 100%; margin: auto;")
               figcaption Nota: Tomado de <a href="https://www.ionos.es/digitalguide/paginas-web/desarrollo-web/las-mejores-herramientas-uml/" target="_blank">https://www.ionos.es/digitalguide/paginas-web/desarrollo-web/las-mejores-herramientas-uml/</a>
       .py-3.py-md-4(titulo="MagicDraw")
@@ -966,7 +966,7 @@
           .col-12
             p.mb-4 Esta aplicación de escritorio destaca por su diseño moderno y claro, así como por su variedad de funciones y la facilidad de su uso. Esta herramienta de diagramas UML ofrece además SysML, representación gráfica de procesos de negocio con BPMN #[i (Business Process Model and Notation)] y el marco de arquitectura UPDM #[i (United Profile for DoDAF/MODAF)].
             p.mb-4 MagicDraw también ofrece lenguaje de especificación OCL #[i (Object Constraint Language)], y XMI, que 	puede usar para exportar diagramas a otros programas sin pérdidas de información.
-            figure
+            //figure
               img(src='@/assets/curso/temas/img26.png', style="max-width: 100%; margin: auto;")
               figcaption Nota: Tomado de <a href="http://www.magicdraw.com" target="_blank">http://www.magicdraw.com</a>
       .py-3.py-md-4(titulo="StarUML")
@@ -1002,14 +1002,14 @@
               li 
                 i.fas.fa-angle-right
                 |  Diagrama de composición estructural (UML 2.0).
-            figure
+            //figure
               img(src='@/assets/curso/temas/img27.png', style="max-width: 100%; margin: auto;")
               figcaption Nota: Tomado de <a href="https://staruml.io/" target="_blank">https://staruml.io/</a>
       .py-3.py-md-4(titulo="Lucidchart")
         .row
           .col-12
             p.mb-4 Herramienta para hacer diagramas UML #[i online] que permite comprender las complejidades en el código de forma más rápida y sencilla, pues automatiza el proceso de generación de un diagrama de clases. Simplemente elabora y personaliza los diagramas de secuencia en línea a partir del texto. Al ingresar el marcado en el diálogo emergente, Lucidchart generará automáticamente un diagrama de secuencia que cumple el estándar de PlantUML.
-            figure
+            //figure
               img(src='@/assets/curso/temas/img28.png', style="max-width: 100%; margin: auto;")
               figcaption Nota: Tomado de <a href="https://www.lucidchart.com/" target="_blank">https://www.lucidchart.com/</a>
 
